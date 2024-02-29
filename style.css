@@ -1,53 +1,11 @@
-body {
+/* border-bottom: 12px solid orangered;
     box-sizing: border-box;
-    height: 100vh;
-}
-.t-b {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 8px;
-}
-.container-one {
-    background-color: lightslategray;
-    display: flex;
-    justify-content: space-between;
-    padding: 24px;
-    border-bottom: 12px solid orangered;
-    width: 100%;
-}
-.container-pettite {
-    display: flex;
-    align-items: center;
-}
-.box {
+    
     border: 2px solid rgb(0, 0, 89);
-    width: 100px;
-    height: 100px;
-}
-.box-pettite {
-    width: 50px;
-    height: 50px;
-    margin: 12px;
-    background-color: lightgrey;
-}
-/* second section */
-.container-two {
-    background-color: rgb(0, 0, 89);
-    width: 100%;
-    padding: 24px;
+    
+    background-color: rgb(0, 0, 89); */
 
-}
-.box-long {
-    border: 2px solid rgb(0, 0, 0);
-    height: 30px;
-    width: 50px;
-    margin: 12px 0;
-}
-.container-boxes {
-    display: flex;
-    flex-wrap: wrap;
-}
+
 
 
 
