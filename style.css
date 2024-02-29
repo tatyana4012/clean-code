@@ -1,13 +1,6 @@
 body {
     box-sizing: border-box;
-    height: 100vh
-}
-button {
-    border: 1px solid lightgray;
-    height: 20px;
-    width: 20px;
-    border-radius: 25px;
-    background-color: purple;
+    height: 100vh;
 }
 .t-b {
     display: flex;
@@ -15,24 +8,12 @@ button {
     align-items: center;
     padding: 8px;
 }
-.letter-t {
-    font-style: italic;
-    background: rgb(151, 165, 165);
-    width: 65%;
-    height: 75%;
-}
-.letter-b {
-    background: rgb(44, 35, 35);
-    border-radius: 50px;
-    width: 45px;
-    height: 45px;
-}
 .container-one {
-    background-color: rgb(0, 63, 135);
+    background-color: lightslategray;
     display: flex;
     justify-content: space-between;
     padding: 24px;
-    border-bottom: 24px solid rgb(0, 147, 180);
+    border-bottom: 12px solid orangered;
     width: 100%;
 }
 .container-pettite {
@@ -40,7 +21,7 @@ button {
     align-items: center;
 }
 .box {
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 89);
     width: 100px;
     height: 100px;
 }
@@ -48,11 +29,11 @@ button {
     width: 50px;
     height: 50px;
     margin: 12px;
+    background-color: lightgrey;
 }
-
 /* second section */
 .container-two {
-    background-color: rgb(126, 168, 186);
+    background-color: rgb(0, 0, 89);
     width: 100%;
     padding: 24px;
 
@@ -67,13 +48,7 @@ button {
     display: flex;
     flex-wrap: wrap;
 }
-.box-two {
-    border: 2px solid lightgray;
-    background: lightgray;
-    width: 30%;
-    height: 100px;
-    margin: 12px;
-}
+
 
 
 
