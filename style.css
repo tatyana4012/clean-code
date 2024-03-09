@@ -1,5 +1,4 @@
-/* font */
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -7,6 +6,8 @@
   font-family: "Roboto", "sans-serif";
 }
 
+
+/* NAV */
 nav {
   height: 70px;
   display: flex;
@@ -20,16 +21,20 @@ a {
   color: #000;
   font-size: 24px;
   font-weight: 700;
-  padding-left: 8px;
+  padding-left: 16px;
+  text-decoration-line: none;
 }
 
 .logo {
   border: 2px solid #888;
+  width: 300px;
+  padding: 12px;
 }
 
+/* HEADER */
 header {
   background-color: #eadcff;
-  height: 100vg;
+  height: calc(100vh - 70px);
   padding: 24px;
   display: flex;
   justify-content: center;
@@ -62,6 +67,85 @@ button {
   cursor: pointer;
 }
 
+/* ABOUT DISCORD CONTACT*/
+#about, #discord, #contact {
+  padding: 48px 0;
+}
+
+#about {
+  background-color: #f8ffdc;
+}
+
+#discord {
+  background-color: #cefeff;
+}
+
+h2 {
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.section_description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img__wrapper {
+  width: 40%;
+  padding: 0 24px;
+}
+img {
+  width: 100%;
+}
+
+.section_description-p {
+  width: 60%;
+  padding: 0 24px;
+}
+
+.section__p-styling {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+/* CONTACT */
+#contact {
+  background-color: #dce9ff;
+}
+
+form {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+input, textarea {
+  margin-bottom: 24px;
+  font-size: 20px;
+  padding: 6px 12px;
+}
+
+/* FOOTER */
+footer {
+  background-color: #0115b2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+}
+
+footer div {
+  padding: 12px;
+}
+footer p {
+  font-style: italic;
+  padding: 12px;
+}
 
 
 
@@ -74,25 +158,3 @@ button {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* border-bottom: 12px solid orangered;
-    box-sizing: border-box;
-    
-    border: 2px solid rgb(0, 0, 89); */
